@@ -21,4 +21,10 @@ describe('AboutMeComponent', () => {
   it('should create the about-me component', () => {
     expect(component).toBeDefined();
   });
+
+  it('should have the profile picture component', () => {
+    const element = fixture.nativeElement;
+    const profilePictureElement = element.querySelector('profile-picture');
+    expect(profilePictureElement).toBeTruthy();
+  });
 });
