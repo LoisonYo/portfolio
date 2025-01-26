@@ -21,4 +21,10 @@ describe('AppComponent', () => {
   it('should create the app', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have the nav bar component', () => {
+    const element = fixture.nativeElement;
+    const navElement = element.querySelector('nav-bar');
+    expect(navElement).toBeTruthy();
+  });
 });

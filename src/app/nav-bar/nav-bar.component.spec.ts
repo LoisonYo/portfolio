@@ -21,10 +21,4 @@ describe('NavBarComponent', () => {
   it('should create the nav bar component', () => {
     expect(component).toBeDefined();
   });
-
-  it('should have a nav bar', () => {
-    const navBarElement = fixture.nativeElement;
-    const navElement = navBarElement.querySelector('nav');
-    expect(navElement).toBeTruthy();
-  });
 });
