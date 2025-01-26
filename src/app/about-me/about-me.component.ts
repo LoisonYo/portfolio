@@ -8,4 +8,7 @@ import { ProfilePictureComponent } from '../about-me/profile-picture/profile-pic
   templateUrl: './about-me.component.html',
   styleUrl: './about-me.component.scss'
 })
-export class AboutMeComponent {}
+export class AboutMeComponent {
+  name = 'Yohann Loison';
+  profession = 'Software Engineer';
+}

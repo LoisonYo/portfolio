@@ -27,4 +27,22 @@ describe('AboutMeComponent', () => {
     const profilePictureElement = element.querySelector('profile-picture');
     expect(profilePictureElement).toBeTruthy();
   });
+
+  it('should have the name', () => {
+    const element = fixture.nativeElement;
+    const nameElement = element.querySelector('p');
+    expect(nameElement).toBeTruthy();
+  });
+
+  it('should have the correct name', () => {
+    const element = fixture.nativeElement;
+    const nameElement = element.querySelector('p');
+    expect(nameElement.textContent).toBe('Hi, my name is ' + component.name + '.');
+  });
+
+  it('should have the profession', () => {
+    const element = fixture.nativeElement;
+    const professionElement = element.querySelector('p');
+    expect(professionElement.textContent).toBe('I\'m a ' + component.profession + '.');
+  });
 });

@@ -1,0 +1,19 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-me-text {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+p {
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+
+span {
+    color: #5dade2;
+}
