@@ -36,13 +36,13 @@ describe('AboutMeComponent', () => {
 
   it('should have the correct name', () => {
     const element = fixture.nativeElement;
-    const nameElement = element.querySelector('p');
+    const nameElement = element.querySelector('.name');
     expect(nameElement.textContent).toBe('Hi, my name is ' + component.name + '.');
   });
 
   it('should have the profession', () => {
     const element = fixture.nativeElement;
-    const professionElement = element.querySelector('p');
+    const professionElement = element.querySelector('.profession');
     expect(professionElement.textContent).toBe('I\'m a ' + component.profession + '.');
   });
 });
