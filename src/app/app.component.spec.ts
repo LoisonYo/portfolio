@@ -27,4 +27,10 @@ describe('AppComponent', () => {
     const navElement = element.querySelector('nav-bar');
     expect(navElement).toBeTruthy();
   });
+
+  it('should have the about-me component', () => {
+    const element = fixture.nativeElement;
+    const aboutMeElement = element.querySelector('about-me');
+    expect(aboutMeElement).toBeTruthy();
+  });
 });
