@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { BaseButtonComponent } from '../../shared/components/button/base-button.component';
 
 @Component({
-  selector: 'resume-button',
+  selector: 'email-button',
   standalone: true,
   imports: [BaseButtonComponent],
-  templateUrl: './resume-button.component.html',
-  styleUrl: './resume-button.component.scss'
+  templateUrl: './email-button.component.html',
+  styleUrl: './email-button.component.scss'
 })
-export class ResumeButtonComponent {
-  resume = 'documents/YohannLoison_CV_EN.pdf';
+export class EmailButtonComponent {
+  email = 'yohann.loison@outlook.com';
 }
