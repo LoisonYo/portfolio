@@ -1,0 +1,6 @@
+<div>
+    <h2>{{ workExperience.title }}</h2>
+    <label>{{ workExperience.company }} ({{ workExperience.start }} - {{ workExperience.end }})</label>
+    <p>{{ workExperience.description }}</p>
+    <skill-list [skills]="workExperience.skills"></skill-list>
+</div>

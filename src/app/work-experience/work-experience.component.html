@@ -1,0 +1,5 @@
+<base-section [title]="'Work experience'">
+    @for (workExperience of workExperiences; track $index){
+        <work-experience-line [workExperience]="workExperience"></work-experience-line>
+    }
+</base-section>
