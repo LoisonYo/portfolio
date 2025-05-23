@@ -3,7 +3,7 @@ import { Skills } from "./skills";
 
 export class WorkExperiences {
     static ENOVINFO_LEMAN_2024_PRESENT: WorkExperience = new WorkExperience('Software Engineer',
-        'e-novinfo Léman SA',
+        'e-novinfo Léman SA, Renens',
         'february 2024',
         'present',
         '',
@@ -22,7 +22,7 @@ export class WorkExperiences {
     );
 
     static ENOVINFO_SA_2022_2024: WorkExperience = new WorkExperience('Software Engineer',
-        'e-novinfo SA',
+        'e-novinfo SA, Neuchâtel',
         'june 2022',
         'february 2024',
         '',
@@ -41,7 +41,7 @@ export class WorkExperiences {
     );
 
     static ENOVINFO_SA_2021_2022: WorkExperience = new WorkExperience('Software Engineer Intern',
-        'e-novinfo SA',
+        'e-novinfo SA, Neuchâtel',
         'november 2021',
         'january 2022',
         '',

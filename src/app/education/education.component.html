@@ -1,0 +1,5 @@
+<base-section id="education" [title]="'Education'">
+    @for (education of educations; track $index){
+        <education-line [education]="education"></education-line>
+    }
+</base-section>
