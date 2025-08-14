@@ -1,0 +1,5 @@
+<base-section id="books" [title]="'Readings'">
+    @for (book of books; track $index){
+        <book-line [book]="book"></book-line>
+    }
+</base-section>
